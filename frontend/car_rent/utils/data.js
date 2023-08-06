@@ -1,62 +1,62 @@
 export const bestOffers = [
-    {
-      title: "Golf 7 GTI",
-      image:'/golf.jpg',
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      price: 10000,
-      duration: 7,
-      rate: 4.5,
-      car: {
-        name: "Golf 7 GTI",
-        brand: "Volkswagen",
-        model: "Golf",
-        year: 2019,
-      },
-      payment_ways: [
-        "ccp","cash","paypal"
-      ],
-      owner:"Fares",
-      Address:"Boumerdes"
+  {
+    title: "Golf 7 GTI",
+    image:'/golf.jpg',
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    price: 10000,
+    duration: 7,
+    rate: 4.5,
+    car: {
+      name: "Golf 7 GTI",
+      brand: "Volkswagen",
+      model: "Golf",
+      year: 2019,
     },
-    {
-      title: "Seat Leon",
-      image:'/leon.jpg',
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      price: 10000,
-      duration: 7,
-      rate: 4.5,
-      car: {
-        name: "Seat Leon",
-        brand: "Seat",
-        model: "Leon",
-        year: 2019,
-      },
-      payment_ways: [
-        "ccp","cash","paypal"
-      ],
-      owner:"Djaffar",
-      Address:"Alger"
+    payment_ways: [
+      "ccp","cash","paypal"
+    ],
+    owner:"Fares",
+    Address:"Boumerdes"
+  },
+  {
+    title: "Seat Leon",
+    image:'/leon.jpg',
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    price: 10000,
+    duration: 7,
+    rate: 4.5,
+    car: {
+      name: "Seat Leon",
+      brand: "Seat",
+      model: "Leon",
+      year: 2019,
     },
-    {
-      title: "Symbol Renault",
-      image:'/symbol.jpg',
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      price: 10000,
-      duration: 7,
-      rate: 4.5,
-      car: {
-        name: "Symbol Renault",
-        brand: "Symbol",
-        model: "Renault",
-        year: 2019,
-      },
-      payment_ways: [
-        "ccp","cash","paypal"
-      ],
-      owner:"Oussama",
-      Address:"Bejaia"
-    }
-  ]
+    payment_ways: [
+      "ccp","cash","paypal"
+    ],
+    owner:"Djaffar",
+    Address:"Alger"
+  },
+  {
+    title: "Symbol Renault",
+    image:'/symbol.jpg',
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    price: 10000,
+    duration: 7,
+    rate: 4.5,
+    car: {
+      name: "Symbol Renault",
+      brand: "Symbol",
+      model: "Renault",
+      year: 2019,
+    },
+    payment_ways: [
+      "ccp","cash","paypal"
+    ],
+    owner:"Oussama",
+    Address:"Bejaia"
+  }
+]
 
 export const bestRenters = [
   {
@@ -141,3 +141,226 @@ export const testimonials = [
   },
 
   ]
+
+
+export const recommendedOffers = [
+  {
+    title: "Golf 7 GTI",
+    image:'/golf.jpg',
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    price: 10000,
+    duration: 7,
+    rate: 4.5,
+    car: {
+      name: "Golf 7 GTI",
+      brand: "Volkswagen",
+      model: "Golf",
+      year: 2019,
+    },
+    payment_ways: [
+      "ccp","cash","paypal"
+    ],
+    owner:"Fares",
+    Address:"Boumerdes"
+  },
+  {
+    title: "Seat Leon",
+    image:'/leon.jpg',
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    price: 10000,
+    duration: 7,
+    rate: 4.5,
+    car: {
+      name: "Seat Leon",
+      brand: "Seat",
+      model: "Leon",
+      year: 2019,
+    },
+    payment_ways: [
+      "ccp","cash","paypal"
+    ],
+    owner:"Djaffar",
+    Address:"Alger"
+  },
+  {
+    title: "Symbol Renault",
+    image:'/symbol.jpg',
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    price: 10000,
+    duration: 7,
+    rate: 4.5,
+    car: {
+      name: "Symbol Renault",
+      brand: "Symbol",
+      model: "Renault",
+      year: 2019,
+    },
+    payment_ways: [
+      "ccp","cash","paypal"
+    ],
+    owner:"Oussama",
+    Address:"Bejaia"
+  },
+  {
+    title: "Golf 7 GTI",
+    image:'/golf.jpg',
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    price: 10000,
+    duration: 7,
+    rate: 4.5,
+    car: {
+      name: "Golf 7 GTI",
+      brand: "Volkswagen",
+      model: "Golf",
+      year: 2019,
+    },
+    payment_ways: [
+      "ccp","cash","paypal"
+    ],
+    owner:"Fares",
+    Address:"Boumerdes"
+  },
+  {
+    title: "Seat Leon",
+    image:'/leon.jpg',
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    price: 10000,
+    duration: 7,
+    rate: 4.5,
+    car: {
+      name: "Seat Leon",
+      brand: "Seat",
+      model: "Leon",
+      year: 2019,
+    },
+    payment_ways: [
+      "ccp","cash","paypal"
+    ],
+    owner:"Djaffar",
+    Address:"Alger"
+  },
+  {
+    title: "Symbol Renault",
+    image:'/symbol.jpg',
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    price: 10000,
+    duration: 7,
+    rate: 4.5,
+    car: {
+      name: "Symbol Renault",
+      brand: "Symbol",
+      model: "Renault",
+      year: 2019,
+    },
+    payment_ways: [
+      "ccp","cash","paypal"
+    ],
+    owner:"Oussama",
+    Address:"Bejaia"
+  },
+  {
+    title: "Seat Leon",
+    image:'/leon.jpg',
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    price: 10000,
+    duration: 7,
+    rate: 4.5,
+    car: {
+      name: "Seat Leon",
+      brand: "Seat",
+      model: "Leon",
+      year: 2019,
+    },
+    payment_ways: [
+      "ccp","cash","paypal"
+    ],
+    owner:"Djaffar",
+    Address:"Alger"
+  },
+  {
+    title: "Symbol Renault",
+    image:'/symbol.jpg',
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    price: 10000,
+    duration: 7,
+    rate: 4.5,
+    car: {
+      name: "Symbol Renault",
+      brand: "Symbol",
+      model: "Renault",
+      year: 2019,
+    },
+    payment_ways: [
+      "ccp","cash","paypal"
+    ],
+    owner:"Oussama",
+    Address:"Bejaia"
+  },
+  {
+    title: "Seat Leon",
+    image:'/leon.jpg',
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    price: 10000,
+    duration: 7,
+    rate: 4.5,
+    car: {
+      name: "Seat Leon",
+      brand: "Seat",
+      model: "Leon",
+      year: 2019,
+    },
+    payment_ways: [
+      "ccp","cash","paypal"
+    ],
+    owner:"Djaffar",
+    Address:"Alger"
+  },
+  {
+    title: "Symbol Renault",
+    image:'/symbol.jpg',
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    price: 10000,
+    duration: 7,
+    rate: 4.5,
+    car: {
+      name: "Symbol Renault",
+      brand: "Symbol",
+      model: "Renault",
+      year: 2019,
+    },
+    payment_ways: [
+      "ccp","cash","paypal"
+    ],
+    owner:"Oussama",
+    Address:"Bejaia"
+  }
+]
+
+export const filterTags = [
+  {tag: "Volkswagen",selected: false,},
+  {tag: "Seat",selected: false,},
+  {tag: "Renault",selected: false,},
+  {tag: "Peugeot",selected: false,},
+  {tag: "Citroen",selected: false,},
+  {tag: "Familiale",selected: false,},
+  {tag: "Sportive",selected: false,},
+  {tag: "Berline",selected: false,},
+  {tag: "SUV",selected: false,},
+  {tag: "Coupé",selected: false,},
+  {tag: "Classique",selected: false,},
+  {tag: "4 portes",selected: false,},
+  {tag: "Confortable",selected: false,},
+  {tag: "Economique",selected: false,},
+  {tag: "Puissante",selected: false,},
+  {tag: "Automatique",selected: false,},
+  {tag: "Sportive",selected: false,},
+  {tag: "Berline",selected: false,},
+  {tag: "SUV",selected: false,},
+  {tag: "Coupé",selected: false,},
+  {tag: "Classique",selected: false,},
+  {tag: "4 portes",selected: false,},
+  {tag: "Confortable",selected: false,},
+  {tag: "Economique",selected: false,},
+  {tag: "Puissante",selected: false,},
+  {tag: "Automatique",selected: false,},
+]
