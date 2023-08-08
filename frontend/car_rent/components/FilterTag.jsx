@@ -6,8 +6,8 @@ function FilterTag({tag, index}) {
 
   return (
     <motion.div className={`
-    bg-gray-200 rounded-xl p-1 font-semibold w-auto cursor-pointer
-    ${selected ? 'bg-blue-500 text-white' : 'hover:bg-gray-300'}
+     rounded-xl p-1 font-semibold w-auto cursor-pointer
+    ${selected ? 'bg-blue-500 text-white' : 'bg-gray-200 hover:bg-gray-300'}
     ease-in-out duration-200 flex pl-2 items-center overflow-hidden hover:overflow-visible hover:z-30
     `}
     onClick={() => setSelected(!selected)}

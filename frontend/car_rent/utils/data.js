@@ -364,3 +364,64 @@ export const filterTags = [
   {tag: "Puissante",selected: false,},
   {tag: "Automatique",selected: false,},
 ]
+
+export const bestSellers = [
+  {
+    name: "Fares ICHALALEN",
+    image: "/fares.jfif",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    rate: 4.5,
+    cars: [
+      "Golf 7 GTI",
+      "Seat Leon",
+    ],
+    address:"Amizour-Bejaia",
+    phone: "0555555555",
+    email:"fakemail@gmail.com",
+  },
+  {
+    name: "Hani MERABET",
+    image: "/hani.jfif",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    rate: 4.5,
+    cars: [
+      "Golf 7 GTI",
+      "Seat Leon",
+    ],
+    address:"Beni Maouche-Bejaia",
+    phone: "0555555555",
+    email:"fakemail@gmail.com",
+  },
+  {
+    name: "Nadir NAIT YAHIA",
+    image: "/nadir.jpg",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    rate: 4.5,
+    cars: [
+      "Golf 7 GTI",
+      "Seat Leon",
+    ],
+    address:"Laoulma-Setif",
+    phone: "0555555555",
+    email:"fakemail@gmail.com",
+  },
+]
+
+export const usageSteps = [
+  {
+      title: "Discover our services: ",
+      content:"Lorem ipsum dolor sit amet consectetur adipisicin Lorem ipsum dolor sit amet consectetur adipisicin Lorem ipsum dolor sit amet consectetur adipisicin",
+  },
+  {
+      title: "Register for a renter account: ",
+      content:"Lorem ipsum dolor sit amet consectetur adipisicin Lorem ipsum dolor sit amet consectetur adipisicin Lorem ipsum dolor sit amet consectetur adipisicin",
+  },
+  {
+      title: "Post your offers and customize them: ",
+      content:"Lorem ipsum dolor sit amet consectetur adipisicin Lorem ipsum dolor sit amet consectetur adipisicin Lorem ipsum dolor sit amet consectetur adipisicin",
+  },
+  {
+      title: "Wait for your customers to apply for your offers: ",
+      content:"Lorem ipsum dolor sit amet consectetur adipisicin Lorem ipsum dolor sit amet consectetur adipisicin Lorem ipsum dolor sit amet consectetur adipisicin",
+  },
+]

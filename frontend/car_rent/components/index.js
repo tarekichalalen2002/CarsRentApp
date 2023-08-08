@@ -6,6 +6,7 @@ import SearchBox from "./SearchBox";
 import Offer from "./Offer";
 import FilterTag from './FilterTag'
 import Footer from "./Footer";
+import Logo from "./Logo";
 
 export { 
     Navbar,
@@ -16,4 +17,5 @@ export {
     Offer,
     FilterTag,
     Footer,
+    Logo,
 };
