@@ -1,5 +1,5 @@
 import React,{useEffect, useState} from "react";
-import {Navbar ,SearchBox, FilterTag} from "../../components";
+import {Navbar ,SearchBox, FilterTag ,Footer} from "../../components";
 import { Inter } from 'next/font/google'
 import { recommendedOffers,filterTags } from "@/utils/data";
 import { Offer } from "../../components";
@@ -15,7 +15,7 @@ export default function Offers() {
     }, [isHover])
     let offersCardsAnimationDelay = 0;
     return (
-        <main className={`${inter.className} scroll-smooth`}>
+        <main className={`${inter.className} scroll-smooth w-[100%] overflow-x-hidden`}>
             <Navbar />
             <div className="flex justify-center p-4">
                 <SearchBox />
@@ -58,6 +58,7 @@ export default function Offers() {
                     </div>
                 </div>
             </section>
+            <Footer />
         </main>
     )
 }

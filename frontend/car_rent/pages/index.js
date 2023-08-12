@@ -35,7 +35,7 @@ export default function Home() {
   let offersCardsAnimationDelay = 0
   return (
     <main
-      className={`${inter.className} scroll-smooth`}
+      className={`${inter.className} scroll-smooth w-[100%] overflow-x-hidden`}
     >
       <header className='h-[200vh] w-full p-5'
       id="header"
