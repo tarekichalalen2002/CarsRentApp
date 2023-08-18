@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import { bestSellers , usageSteps } from "@/utils/data";
 import {BiUserPlus,BiTrendingUp} from "react-icons/bi";
 import Link from "next/link";
+import { useSnapshot } from "valtio";
+import state from "@/state";
 
 
 
@@ -12,6 +14,8 @@ import Link from "next/link";
 export default function Renters() {
     const [usageStepsIndex, setUsageStepsIndex] = useState(0)
     const [scroll, setScroll] = useState(0)
+
+    const snap = useSnapshot(state)
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
@@ -86,6 +90,7 @@ export default function Renters() {
                                         <Link href={`/renters/${index}`}>
                                             <button
                                             className="border-2 font-bold border-black rounded-lg p-2 px-4"
+                                            onClick={() => state.loggedUserId=index}
                                             >
                                                 See Profile
                                             </button>

@@ -7,6 +7,10 @@ import Offer from "./Offer";
 import FilterTag from './FilterTag'
 import Footer from "./Footer";
 import Logo from "./Logo";
+import SideBar from "./SideBar";
+import DashboardHeader from "./DashboardHeader";
+import BoolButton from "./BoolButton";
+import Calendar from "./Calendar";
 
 export { 
     Navbar,
@@ -18,4 +22,8 @@ export {
     FilterTag,
     Footer,
     Logo,
+    SideBar,
+    DashboardHeader,
+    BoolButton,
+    Calendar,
 };

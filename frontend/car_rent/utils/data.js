@@ -161,7 +161,8 @@ export const recommendedOffers = [
       "ccp","cash","paypal"
     ],
     owner:"Fares",
-    Address:"Boumerdes"
+    Address:"Boumerdes",
+    isActive: true,
   },
   {
     title: "Seat Leon",
@@ -180,7 +181,8 @@ export const recommendedOffers = [
       "ccp","cash","paypal"
     ],
     owner:"Djaffar",
-    Address:"Alger"
+    Address:"Alger",
+    isActive: true,
   },
   {
     title: "Symbol Renault",
@@ -199,7 +201,8 @@ export const recommendedOffers = [
       "ccp","cash","paypal"
     ],
     owner:"Oussama",
-    Address:"Bejaia"
+    Address:"Bejaia",
+    isActive: true,
   },
   {
     title: "Golf 7 GTI",
@@ -218,7 +221,8 @@ export const recommendedOffers = [
       "ccp","cash","paypal"
     ],
     owner:"Fares",
-    Address:"Boumerdes"
+    Address:"Boumerdes",
+    isActive: true,
   },
   {
     title: "Seat Leon",
@@ -237,7 +241,8 @@ export const recommendedOffers = [
       "ccp","cash","paypal"
     ],
     owner:"Djaffar",
-    Address:"Alger"
+    Address:"Alger",
+    isActive: true,
   },
   {
     title: "Symbol Renault",
@@ -256,7 +261,8 @@ export const recommendedOffers = [
       "ccp","cash","paypal"
     ],
     owner:"Oussama",
-    Address:"Bejaia"
+    Address:"Bejaia",
+    isActive: true,
   },
   {
     title: "Seat Leon",
@@ -275,7 +281,8 @@ export const recommendedOffers = [
       "ccp","cash","paypal"
     ],
     owner:"Djaffar",
-    Address:"Alger"
+    Address:"Alger",
+    isActive: false,
   },
   {
     title: "Symbol Renault",
@@ -294,7 +301,8 @@ export const recommendedOffers = [
       "ccp","cash","paypal"
     ],
     owner:"Oussama",
-    Address:"Bejaia"
+    Address:"Bejaia",
+    isActive: true,
   },
   {
     title: "Seat Leon",
@@ -313,7 +321,8 @@ export const recommendedOffers = [
       "ccp","cash","paypal"
     ],
     owner:"Djaffar",
-    Address:"Alger"
+    Address:"Alger",
+    isActive: false,
   },
   {
     title: "Symbol Renault",
@@ -332,7 +341,8 @@ export const recommendedOffers = [
       "ccp","cash","paypal"
     ],
     owner:"Oussama",
-    Address:"Bejaia"
+    Address:"Bejaia",
+    isActive: true,
   }
 ]
 
@@ -367,6 +377,7 @@ export const filterTags = [
 
 export const bestSellers = [
   {
+    id : 0,
     name: "Fares ICHALALEN",
     image: "/fares.jfif",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -380,6 +391,7 @@ export const bestSellers = [
     email:"fakemail@gmail.com",
   },
   {
+    id : 1,
     name: "Hani MERABET",
     image: "/hani.jfif",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -393,6 +405,7 @@ export const bestSellers = [
     email:"fakemail@gmail.com",
   },
   {
+    id : 2,
     name: "Nadir NAIT YAHIA",
     image: "/nadir.jpg",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -437,6 +450,7 @@ export const cars = [
     number_of_doors: 4,
     horse_power: 150,
     brand_image: "/volkswagen.webp",
+    isActive: true,
   },
   {
     name: "Seat Leon",
@@ -448,6 +462,7 @@ export const cars = [
     number_of_doors: 4,
     horse_power: 150,
     brand_image: "/seat.webp",
+    isActive: false,
   },
   {
     name: "Symbol Renault",
@@ -459,6 +474,7 @@ export const cars = [
     number_of_doors: 4,
     horse_power: 150,
     brand_image: "/renault.webp",
+    isActive: true,
   },
   {
     name: "Golf 7 GTI",
@@ -470,6 +486,7 @@ export const cars = [
     number_of_doors: 4,
     horse_power: 150,
     brand_image: "/volkswagen.webp",
+    isActive: true,
   },
   {
     name: "Symbol Renault",
@@ -481,5 +498,749 @@ export const cars = [
     number_of_doors: 4,
     horse_power: 150,
     brand_image: "/renault.webp",
+    isActive: true,
+  },
+]
+
+
+export const clients = [
+  {
+    email:'fakemail@gmail.com',
+    phone:'0555555555',
+    name:"John Dow",
+    offers: [
+      {
+        title: "Golf 7 GTI",
+        start_day: "2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",       
+        status:"Pending",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+    ]
+  },
+  {
+    email:'fakemail@gmail.com',
+    phone:'0555555555',
+    name:"John Dow",
+    offers: [
+      {
+        title: "Golf 7 GTI",
+        start_day: "2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",       
+        status:"Pending",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+    ]
+    
+  },
+  {
+    email:'fakemail@gmail.com',
+    phone:'0555555555',
+    name:"John Dow",
+    offers: [
+      {
+        title: "Golf 7 GTI",
+        start_day: "2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",       
+        status:"Pending",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+    ]
+    
+  },
+  {
+    email:'fakemail@gmail.com',
+    phone:'0555555555',
+    name:"John Dow",
+    offers: [
+      {
+        title: "Golf 7 GTI",
+        start_day: "2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",       
+        status:"Pending",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+    ]
+    
+  },
+  {
+    email:'fakemail@gmail.com',
+    phone:'0555555555',
+    name:"John Dow",
+    offers: [
+      {
+        title: "Golf 7 GTI",
+        start_day: "2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",       
+        status:"Pending",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+    ]
+    
+  },
+  {
+    email:'fakemail@gmail.com',
+    phone:'0555555555',
+    name:"John Dow",
+    offers: [
+      {
+        title: "Golf 7 GTI",
+        start_day: "2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",       
+        status:"Pending",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+    ]
+    
+  },
+  {
+    email:'fakemail@gmail.com',
+    phone:'0555555555',
+    name:"John Dow",
+    offers: [
+      {
+        title: "Golf 7 GTI",
+        start_day: "2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",       
+        status:"Pending",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+    ]
+    
+  },
+  {
+    email:'fakemail@gmail.com',
+    phone:'0555555555',
+    name:"John Dow",
+    offers: [
+      {
+        title: "Golf 7 GTI",
+        start_day: "2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",       
+        status:"Pending",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+    ]
+    
+  },
+  {
+    email:'fakemail@gmail.com',
+    phone:'0555555555',
+    name:"John Dow",
+    offers: [
+      {
+        title: "Golf 7 GTI",
+        start_day: "2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",       
+        status:"Pending",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+    ]
+    
+  },
+  {
+    email:'fakemail@gmail.com',
+    phone:'0555555555',
+    name:"John Dow",
+    offers: [
+      {
+        title: "Golf 7 GTI",
+        start_day: "2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",       
+        status:"Pending",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+    ]
+    
+  },
+  {
+    email:'fakemail@gmail.com',
+    phone:'0555555555',
+    name:"John Dow",
+    offers: [
+      {
+        title: "Golf 7 GTI",
+        start_day: "2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+        offers: [
+          {
+            title: "Golf 7 GTI",
+            start_day: "2021-05-01",
+            end_day: "2021-05-07",
+            status:"Closed",
+          },
+          {
+            title: "Golf 7 GTI",
+            start_day :"2021-05-01",
+            end_day: "2021-05-07",        
+            status:"Closed",
+          },
+          {
+            title: "Golf 7 GTI",
+            start_day :"2021-05-01",
+            end_day: "2021-05-07",        
+            status:"Cancelled",
+          },
+          {
+            title: "Golf 7 GTI",
+            start_day :"2021-05-01",
+            end_day: "2021-05-07",        
+            status:"Closed",
+          },
+          {
+            title: "Golf 7 GTI",
+            start_day :"2021-05-01",
+            end_day: "2021-05-07",       
+            status:"Pending",
+          },
+          {
+            title: "Golf 7 GTI",
+            start_day :"2021-05-01",
+            end_day: "2021-05-07",        
+            status:"Cancelled",
+          },
+          {
+            title: "Golf 7 GTI",
+            start_day :"2021-05-01",
+            end_day: "2021-05-07",
+            status:"Closed",
+          },
+        ]
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",       
+        status:"Pending",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+    ]
+    
+  },
+  {
+    email:'fakemail@gmail.com',
+    phone:'0555555555',
+    name:"John Dow",
+    offers: [
+      {
+        title: "Golf 7 GTI",
+        start_day: "2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",       
+        status:"Pending",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+    ]
+    
+  },
+  {
+    email:'fakemail@gmail.com',
+    phone:'0555555555',
+    name:"John Dow",
+    offers: [
+      {
+        title: "Golf 7 GTI",
+        start_day: "2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Closed",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",       
+        status:"Pending",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",        
+        status:"Cancelled",
+      },
+      {
+        title: "Golf 7 GTI",
+        start_day :"2021-05-01",
+        end_day: "2021-05-07",
+        status:"Closed",
+      },
+    ]
+    
+  },
+]
+
+
+export const BookedOffers = [
+  {
+    title: "BMW 320D",
+    client_phone: "0555555555",
+    client_email: "fakemail@gmail.com",
+    start_day: "2023-08-01",
+    end_day: "2023-08-07",
+  },
+  {
+    title: "Golf 7 GTI",
+    client_phone: "0555555555",
+    client_email: "fakemail@gmail.com",
+    start_day: "2023-08-08",
+    end_day: "2023-08-11",
+  },
+  {
+    title: "Golf 7 GTI",
+    client_phone: "0555555555",
+    client_email: "fakemail@gmail.com",
+    start_day: "2023-08-13",
+    end_day: "2023-08-16",
+  },
+  {
+    title: "Golf 7 GTI",
+    client_phone: "0555555555",
+    client_email: "fakemail@gmail.com",
+    start_day: "2023-08-17",
+    end_day: "2023-08-19",
+  },
+  {
+    title: "Golf 7 GTI",
+    client_phone: "0555555555",
+    client_email: "fakemail@gmail.com",
+    start_day: "2023-08-21",
+    end_day: "2023-08-27",
+  },
+  {
+    title: "Golf 7 GTI",
+    client_phone: "0555555555",
+    client_email: "fakemail@gmail.com",
+    start_day: "2023-07-21",
+    end_day: "2023-07-27",
   },
 ]
